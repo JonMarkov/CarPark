@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/myCenter/myCenter",
+    "pages/classify/classify",
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7a43b6",
+    "navigationBarTextStyle": "#000",
+    "navigationBarTitleText": "瑞琦e宠"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#bdbdbd",
+    "selectedColor": "#FEA12E",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tobar/img_home.png",
+        "selectedIconPath": "/images/tobar/img_home_selected.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "待定",
+        "iconPath": "/images/tobar/img_sort.png",
+        "selectedIconPath": "/images/tobar/img_sort_selected.png"
+      },
+      {
+        "pagePath": "pages/myCenter/myCenter",
+        "text": "个人中心",
+        "iconPath": "/images/tobar/img_personal.png",
+        "selectedIconPath": "/images/tobar/img_personal_selected.png"
+      }
+    ]
+  }
+}
